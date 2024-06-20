@@ -231,15 +231,19 @@ def Convolution(inp, filter, kernel, stride, layer_index, bnorm=True, leaky=True
     if leaky: x = LeakyReLU(alpha=0.1, name='leaky_' + str(layer_index))(x)
     return x
 
+# Implementierung zunächst ausgelassen, da Performance des Modells aufgrund des dürftigen Trainingsets nicht relevant ist
 def Residual(inp, layer_index=0):
     return inp
 
+# Implementierung zunächst ausgelassen, da Performance des Modells aufgrund des dürftigen Trainingsets nicht relevant ist
 def AvgPool(inp, layer_index=0):
     return inp
 
+# Implementierung zunächst ausgelassen, da Performance des Modells aufgrund des dürftigen Trainingsets nicht relevant ist
 def Connected(inp, layer_index=0):
     return inp
 
+# Implementierung zunächst ausgelassen, da Performance des Modells aufgrund des dürftigen Trainingsets nicht relevant ist
 def Softmax(inp, layer_index=0):
     return inp
 
