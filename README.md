@@ -1,4 +1,4 @@
-# YOLO3 (Detection, Training, and Evaluation)
+# YOLO3 (Detection, Training, and Evaluation) (originally created by experiencor, repository is only for education purposes)
 
 ## Dataset and Model
 
